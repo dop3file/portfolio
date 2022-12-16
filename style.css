@@ -53,6 +53,7 @@ b {
 }
 
 .label {
+    justify-content: baseline;
     font-size: 20px;
     font-family: 'Ubuntu Mono', monospace;
     color: white;
@@ -62,12 +63,18 @@ b {
 }
 
 .row {
-    display: inline;
+    display: inline-flex;
+    align-items: baseline;
 }
 
 @media (max-width: 900px) {
     .row {
         display: grid;
+    }
+    #icon {
+        width: 32px;
+        height: 32px;
+        padding: 10px;
     }
 
 }
@@ -82,4 +89,16 @@ b {
     width: 64px;
     height: 64px;
     padding: 20px;
+}
+
+#projects {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 1px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
 }
