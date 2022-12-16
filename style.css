@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Tinos&family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+html, body {
+    width: 99%;
+    height: 98%;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+  
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.container {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.container > h1 {
+    font-size: 48px;
+}
+
+b {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 28px;
+}
+
+.black {
+    color: white;
+    background-color: black;
+    padding: 0px;
+}
+
+.label {
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.row {
+    display: inline;
+}
+
+@media (max-width: 900px) {
+    .row {
+        display: grid;
+    }
+
+}
+
+#social {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+#icon {
+    width: 64px;
+    height: 64px;
+    padding: 20px;
+}
