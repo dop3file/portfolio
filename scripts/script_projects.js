@@ -27,7 +27,7 @@ var projects = {
         github: 'https://github.com/dop3file/gomeltrans_api'
     },
     3: {
-        name: 'Язык программирования',
+        name: 'Интерпритатор',
         description: 'Equilibrium - это скриптовый строго типизированный язык программирования, написанный на Python',
         image: 'eq.jfif',
         github: 'https://github.com/dop3file/equilibrium'
