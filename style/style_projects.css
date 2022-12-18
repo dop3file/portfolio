@@ -20,6 +20,7 @@ nav {
 span {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 26px;
+    cursor: pointer;
 }
 
 .project_tab {
