@@ -1,0 +1,60 @@
+.container {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border: 5px;
+    border-radius: 15px;
+    background-color: #0B1119;
+    color: white;
+    opacity: 0.75;
+    min-height: 60%;
+}
+
+nav {
+    display: grid;
+    float: left;
+    margin-left: 1em;
+    padding: 1em;
+}
+
+span {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 26px;
+}
+
+.project_tab {
+    margin-bottom: 2em;
+}
+
+#project_image {
+    width: 55%;
+    height: 55%;
+    margin-right: 2em;
+    padding: 2em;
+    float: left;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 100%;
+    }
+    #project_image {
+        width: 75%;
+        height: 75%;
+    }
+}
+
+p {
+    font-size: 18px;
+}
+
+.row {
+    display: inline;
+    vertical-align: baseline;
+}
+
+#description {
+    padding: 60px;
+}
+
+
