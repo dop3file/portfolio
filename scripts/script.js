@@ -1,4 +1,4 @@
-var technologies = ['python', 'postgresql', 'django + drf', 'fastapi', 'flask', 'aiogram', 'redis', 'celery'];
+var technologies = ['python', 'postgresql', 'django + drf', 'fastapi', 'flask', 'aiogram', 'redis', 'celery', 'html / css / js'];
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
@@ -27,7 +27,7 @@ function includeText() {
 
 function changeColor() {
     for (const i in technologies) {
-        document.getElementById("label" + String(i)).style.backgroundColor = getRandomColor();
+        document.getElementById(`label${i}`).style.backgroundColor = getRandomColor();
     }
 }
 
