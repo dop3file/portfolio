@@ -1,4 +1,4 @@
-var technologies = ['python', 'postgresql', 'django + drf', 'fastapi', 'flask', 'aiogram', 'redis', 'celery', 'html / css / js'];
+var technologies = ['python', 'postgresql', 'django/drf', 'fastapi', 'flask', 'aiogram', 'redis', 'celery', 'javascript'];
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
