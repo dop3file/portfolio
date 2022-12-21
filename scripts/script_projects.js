@@ -64,6 +64,10 @@ function getProject(id) {
     image.src = 'images/projects/' + projects[id]['image'];
     label = document.getElementById('project_label')
     label.innerHTML = projects[id]['name'];
+
+    link = document.getElementById('git_link')
+    link.href = projects[id]['github']
+
   }
 
 
