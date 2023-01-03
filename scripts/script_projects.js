@@ -1,3 +1,10 @@
+import TextareaMarkdown from 'textarea-markdown'
+
+
+let textarea = document.querySelector("textarea");
+new TextareaMarkdown(textarea);
+
+
 var projects = ['Шахматы', 'Социальная сеть', 'API Гомельского транспорта', 'Язык программирования', 'Анонимный чат бот']
 var images = [
     'chess.png',
@@ -39,7 +46,6 @@ var projects = {
         github: 'https://github.com/dop3file/anonym_chat'
     }
 }
-
 function includeProjectText() {
     all_projects_span = document.querySelectorAll('span.project_tab');
     var parent = document.getElementById('nav__');
