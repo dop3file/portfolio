@@ -67,7 +67,7 @@ b {
     align-items: baseline;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .row {
         display: grid;
     }

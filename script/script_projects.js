@@ -1,10 +1,3 @@
-import TextareaMarkdown from 'textarea-markdown'
-
-
-let textarea = document.querySelector("textarea");
-new TextareaMarkdown(textarea);
-
-
 var projects = ['Шахматы', 'Социальная сеть', 'API Гомельского транспорта', 'Язык программирования', 'Анонимный чат бот']
 var images = [
     'chess.png',
