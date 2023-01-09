@@ -1,12 +1,3 @@
-var projects = ['Шахматы', 'Социальная сеть', 'API Гомельского транспорта', 'Язык программирования', 'Анонимный чат бот']
-var images = [
-    'chess.png',
-    'socialnetwork.png',
-    'api.png',
-    'eq.jfif',
-    'anonym.png'
-]
-
 var projects = {
     0: {
         name: 'Шахматы',
